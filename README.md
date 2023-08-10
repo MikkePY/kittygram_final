@@ -1,4 +1,4 @@
-[![Main Kittygramm workflow](https://github.com/ddr533/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ddr533/kittygram_final/actions/workflows/main.yml)
+[![Main Kittygramm workflow](https://github.com/ddr533/kittygram_final/actions/workflows/kittygram_workflow.yml/badge.svg?branch=main)](https://github.com/ddr533/kittygram_final/actions/workflows/kittygram_workflow.yml)
 
 Kittygram 
 
@@ -50,28 +50,25 @@ cd kittygram_final
 
  
 
-POSTGRES_DB=kittygram 
+POSTGRES_DB=django_db 
 
-POSTGRES_USER=kittygram_user 
+POSTGRES_USER=django_user
 
-POSTGRES_PASSWORD=kittygram_password 
+POSTGRES_PASSWORD=django_password
 
 Запустить проект через docker-compose: 
 
  
-
 docker compose -f docker-compose.yml up 
 
 Выполнить миграции: 
 
  
-
 docker compose -f docker-compose.yml exec backend python manage.py migrate 
 
 Создать суперюзера: 
 
  
-
 sudo docker compose -f docker-compose.yml exec backend python manage.py createsuperuser 
 
 Собрать статику и скопировать ее: 
