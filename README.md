@@ -1,5 +1,7 @@
+[![Main Kittygramm workflow](https://github.com/MikkePY/kittygram_final/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/MikkePY/kittygram_final/actions/workflows/main.yaml)
+
 Kittygram
-https://github.com/MikkePY/kittygram_final/actions/workflows/main.yml/badge.svg
+
 Описание
 Проект о домашних питомцах, в котором можно зарегистрироваться и добавлять питомцев, необходимо указать имя и год рождения питомца, а так же добавить фотографию и указать его умения.
 
