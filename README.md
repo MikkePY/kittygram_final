@@ -1,4 +1,4 @@
-[![Main Kittygramm workflow](https://github.com/MikkePY/kittygram_final/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/MikkePY/kittygram_final/actions/workflows/main.yaml)
+[![Main Kittygram workflow](https://github.com/MikkePY/kittygram_final/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/MikkePY/kittygram_final/actions/workflows/main.yaml)
 
 Kittygram
 
