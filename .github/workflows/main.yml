@@ -146,8 +146,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }} 
         passphrase: ${{ secrets.SSH_PASSPHRASE }} 
         script: | 
-          cd kittygram 
-          # Выполняет pull образов с Docker Hub 
+          cd kittygram
           sudo docker compose -f docker-compose.production.yml pull 
           # Перезапускает все контейнеры в Docker Compose 
           sudo docker compose -f docker-compose.production.yml down 
